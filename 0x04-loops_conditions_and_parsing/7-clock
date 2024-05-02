@@ -11,7 +11,7 @@ do
 	minute=1
 	while [ $minute -le 59 ]
 	do
-		printf "%02d\n" $minute
+		printf "%d\n" $minute
 		minute=$((minute+1))
 	done
 	hour=$((hour+1))
