@@ -11,8 +11,8 @@ do
 	minute=1
 	while [ $minute -le 59 ]
 	do
-		printf "%d\n" $minute
-		minute=$((minute+1))
+		echo "$minute"
+		((minute++))
 	done
-	hour=$((hour+1))
+	((hour++))
 done
