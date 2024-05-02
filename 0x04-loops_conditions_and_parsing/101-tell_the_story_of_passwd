@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #bash script tells a story based on the contents of `/etc/passwd` file
-
 file="/etc/passwd"
 fl1=""
 fl2=""
