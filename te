@@ -1,0 +1,17 @@
+#----- Display a banner when the terminal starts up ----
+function type_write() {
+    local txt="$1"
+    local dly="$2"
+    for ((i = 0; i < ${#txt}; i++)); do
+        echo -ne "\e[32m${txt:$i:1}\e[0m"
+        sleep "$dly"
+    done
+}
+terminal_width=$(tput cols)
+title="mohamed bentaleb"
+title_length=${#title}
+padding=$(( (terminal_width - title_length) / 2 ))
+printf '%*s' $padding
+type_write "$title" 0.07
+echo
+echo
