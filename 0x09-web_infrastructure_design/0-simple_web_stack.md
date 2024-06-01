@@ -1,3 +1,6 @@
+![web infrastructure](https://github.com/mdbentaleb/alx-system_engineering-devops/assets/132714803/384e188f-7703-47b0-8914-39d25578136c)
+
+
 ## Description
 
 The previous configuration is a simple web infrastructure to host a Web site available at `www.foobar.com`.
