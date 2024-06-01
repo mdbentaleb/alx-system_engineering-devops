@@ -7,10 +7,10 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 
 ## Specifics About This Infrastructure
 
-- What is a Server:
-<br/>A server may be a hardware or software computer system which, at the behest of client computers, avails services to them.
-<br/>More often than not, data centers house the servers, which may either be physical or virtual machines.
-<br/>They work on an operating system.
+- **What is a Server**:
+<br/>&nbsp;A server may be a hardware or software computer system which, at the behest of client computers, avails services to them.
+<br/>&nbsp;More often than not, data centers house the servers, which may either be physical or virtual machines.
+<br/>&nbsp;They work on an operating system.
 
 - The Role of the Domain Name:
 <br/>A domain name acts as a readable alias to the `IP address`, which is a long numerical address.
@@ -40,3 +40,8 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 
 - Client-Server Communication:
 <br/>The server communicates with the client computer—that is, the user's computer requesting the site—using the TCP/IP protocol suite over the internet.
+
+
+## Issues With This Infrastructure
+
+
