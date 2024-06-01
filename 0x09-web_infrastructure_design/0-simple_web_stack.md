@@ -7,17 +7,17 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 
 ## Specifics About This Infrastructure
 
-+ What is a Server:
-<br/>   A server may be a hardware or software computer system which, at the behest of client computers, avails services to them.
-<br/>   More often than not, data centers house the servers, which may either be physical or virtual machines.
-<br/>   They work on an operating system.
+- What is a Server:
+<br/>A server may be a hardware or software computer system which, at the behest of client computers, avails services to them.
+<br/>More often than not, data centers house the servers, which may either be physical or virtual machines.
+<br/>They work on an operating system.
 
-+ The Role of the Domain Name:
+- The Role of the Domain Name:
 <br/>A domain name acts as a readable alias to the `IP address`, which is a long numerical address.
 <br/>For example, the domain name `www.wikipedia.org` serves the purpose of being more readable than its numeric IP address, `91.198.174.192`.
 <br/>This mapping is maintained through the Domain Name System.
 
-+  The Role of the DNS:
+- The Role of the DNS:
 <br/>the DNS translates domain names into IP addresses,allowing browsers to find the server hosting the website a user wants.
 
 - The Type of DNS Record for www in `www.foobar.com`:
@@ -34,3 +34,9 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 <br/>An application server is a server on which the installation, operation, and hosting of applications and associated services for the user, IT department, or organization take place.
 <br/>It processes dynamic content and facilitates the delivery of high-end consumer or business applications.
 
+- The Role of the Database:
+<br/>A database is a system that stores an organized collection of data to easily retrieve, manipulate, and update it.
+<br/>It simply stores application data.
+
+- Client-Server Communication:
+<br/>The server communicates with the client computer—that is, the user's computer requesting the site—using the TCP/IP protocol suite over the internet.
