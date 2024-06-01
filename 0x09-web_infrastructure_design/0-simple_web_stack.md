@@ -51,3 +51,14 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 - **Multiple Single Points of Failure**:
 <br/>Several components in this infrastructure represent single points of failure.
 <br/>For instance, if the MySQL database server goes down, the entire site would be inaccessible.
+
+- **Downtime During Code Deployment**:
+<br/>Deploying new code requires restarting the web server, hence temporary website downtime
+
+- **Maintenance Downtime**:
+<br/>There is a need for maintenance checks that require components to be taken offline or the server shut down.
+<br/>Given that there is only one server, the website will have downtime during the time of maintenance activities.
+
+- **Scalability Issues**:
+<br/>This infrastructure cannot handle high levels of incoming traffic.
+<br/>It struggles to scale beyond the capability of a server, as resource exhaustion or slow performance may occur when the server receives more than a reasonable quantity of requests.
