@@ -18,26 +18,20 @@ All system resources, like CPU, RAM, and SSD, are shared with all components of 
 	more readable than its numeric IP address, `91.198.174.192`.
 	This mapping is maintained through the Domain Name System.
 
-- The Role of the DNS
-	the DNS translates domain names into IP addresses,
-	allowing browsers to find the server hosting the website a user wants.
+- The Role of the DNS:
+<br/>the DNS translates domain names into IP addresses,allowing browsers to find the server hosting the website a user wants.
 
-- The Type of DNS Record for www in `www.foobar.com`
-	The DNS record type for `www.foobar.com` is an A record.
-	The A record maps a domain name to its corresponding `IPv4 address`.
-	You may check this with `dig www.foobar.com`.
-	Although results may vary, this design uses an A record.
+- The Type of DNS Record for www in `www.foobar.com`:
+<br/>The DNS record type for `www.foobar.com` is an A record.
+<br/>The A record maps a domain name to its corresponding `IPv4 address`.
+<br/>You may check this with `dig www.foobar.com`.
+<br/>Although results may vary, this design uses an A record.
 
 - The Role of the Web Server
-	A web server is either hardware or software that responds to client requests,
-	usually in the `HTTP` or `HTTPS` protocol, and delivers the requested
-	resource or an error message.
-	Primarily, it serves static web pages.
+<br/>A web server is either hardware or software that responds to client requests, usually in the `HTTP` or `HTTPS` protocol, and delivers the requested resource or an error message.
+<br/>Primarily, it serves static web pages.
 
 - The Role of the Application Server
-	An application server is a server on which the installation, operation,
-	and hosting of applications and associated services for the user, IT department,
-	or organization take place.
-	It processes dynamic content and facilitates the delivery of high-end
-	consumer or business applications.
+<br/>An application server is a server on which the installation, operation, and hosting of applications and associated services for the user, IT department, or organization take place.
+<br/>It processes dynamic content and facilitates the delivery of high-end consumer or business applications.
 
