@@ -41,11 +41,14 @@ This distributed web infrastructure is created to offload some of the traffic fr
 <br/>- Traffic is unencrypted.
 <br/>- There is no monitoring.
 + **Specific Issues:**
+
 <br/>1. Multiple Single Points of Failure (SPOF):
 <br/>- If the primary MySQL database server goes down, the entire site will be unable to make changes, such as adding or removing users.
 <br/>- The server with the load balancer and the application server connecting to the primary database server are also SPOFs.
+
 <br/>2. Security Issues:
 <br/>- Data transmitted over the network is not encrypted with an SSL certificate, making it vulnerable to interception by hackers.
 <br/>- Without a firewall, there is no way to block unauthorized IP addresses.
-<br/>2. Lack of Monitoring:
+
+<br/>3. Lack of Monitoring:
 <br/>- The status of each server is unknown due to the absence of monitoring tools.
