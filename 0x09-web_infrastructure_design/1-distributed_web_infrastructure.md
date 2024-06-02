@@ -36,12 +36,14 @@ This distributed web infrastructure is created to offload some of the traffic fr
 ## Issues with This Infrastructure
 
 + **Summary:**
+
 <br/>- The load balancer remains a single point of failure (SPOF).
 <br/>- Servers lack firewall protection.
 <br/>- Traffic is unencrypted.
 <br/>- There is no monitoring.
 
 + **Specific Issues:**
+
 <br/>*1. Multiple Single Points of Failure (SPOF)*:
 <br/>- If the primary MySQL database server goes down, the entire site will be unable to make changes, such as adding or removing users.
 <br/>- The server with the load balancer and the application server connecting to the primary database server are also SPOFs.
