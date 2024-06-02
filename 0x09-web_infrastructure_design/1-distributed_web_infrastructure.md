@@ -1,6 +1,6 @@
 # Distributed web infrastructure
 
-![1-distributed_web_infrastructure](https://github.com/mdbentaleb/alx-system_engineering-devops/assets/132714803/b7289e81-ad38-4670-9826-a8ba43af02ad)
+![1-distributed_web_infrastructure](https://github.com/mdbentaleb/alx-system_engineering-devops/assets/132714803/fe79023d-64ca-485c-8a13-64ec10eb7d40)
 
 ## Description:
 This distributed web infrastructure is created to offload some of the traffic from the primary web server by the use of a replica server. This is handled through a load balancer that directs the load between the primary and replica servers.
