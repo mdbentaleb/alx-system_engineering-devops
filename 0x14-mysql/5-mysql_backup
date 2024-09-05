@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash script that generates MySQL 
+mysqldump -uroot -p"$1" --all-databases > backup.sql
+current_date=$(date "+%d-%m-%Y")
+tar -cvzf "$current_date.tar.gz" backup.sql
+
